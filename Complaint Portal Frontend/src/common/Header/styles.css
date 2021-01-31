@@ -1,0 +1,77 @@
+#components-layout-demo-custom-trigger .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    z-index: 10;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+#components-layout-demo-custom-trigger .trigger:hover {
+    color: #1890ff;
+}
+
+#components-layout-demo-custom-trigger .logo {
+    height: 32px;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 16px;
+}
+
+.site-layout .site-layout-background {
+    background: #fff;
+}
+.hamIcon {
+    float: left;
+    margin-left: -2%;
+    cursor: pointer;
+    color: white;
+}
+.appName{
+    font-weight: bolder;
+    /* font-style: italic; */
+    color: white;
+    font-size: x-large;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.sliderOption{
+    margin-top: 4.3%;
+    width: 18%;
+    height: 100%;
+    position: fixed;
+    z-index: 5000;
+}
+.layout{
+    z-index: 4;
+    height: 8%;
+    position: fixed;
+    width: 100%;
+}
+.propsChildren{
+    background-image: url("../../assets/images/background.jpg");
+    background-attachment: 'fixed';
+    /* flex-wrap: nowrap; */
+    /* justify-content: center; */
+    z-index: 1;
+    /* height: 660px; */
+    width: 100%;
+    position: fixed;
+    /* overflow-y: scroll; */
+    background-position:100%; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+  min-height:100%;
+    /* background-attachment: fixed; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    /* -moz-background-size: cover; */
+}
+.children2{
+    padding-left: 6%;
+    padding-top: 5%;
+    z-index: 3;
+    position: relative;
+}
+
+.avatar{
+    float:inline-end
+}

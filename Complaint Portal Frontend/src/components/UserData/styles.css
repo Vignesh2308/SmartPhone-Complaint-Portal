@@ -1,0 +1,36 @@
+.searchContainer {
+    padding-top: 5%;
+}
+.searchInput{
+    border-radius: 10px;
+    /* border: black; */
+}
+label {
+    font-weight: bold;
+}
+.submitButton{
+    margin-left: 15px;
+    height: 35px;
+    width: 100px;
+    border-radius: 10px;
+}
+.tableContainer{
+    padding-top: 2%;
+    width: 90%;
+    margin-left: 5%;
+}
+table thead tr th span div{
+    font-weight: bold;
+}
+.MuiTypography-h6{
+    font-weight: bolder !important;
+}
+.MuiPaper-elevation2 {
+    background-color: rgb(221, 220, 220) !important;
+    /* box-shadow:0px 3px 2px 2px rgba(0, 0, 0, 0.945), 0px 2px 2px 2px rgba(0,0,0,0.14), 0px 1px 5px 1px rgba(0,0,0,0.12) !important; */
+}
+
+.avatar-uploader{
+    text-align: center;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,12 @@
+.ibdHeader {
+    float: left;
+    margin-left: 2%;
+}
+.ibdForm{
+    width: 100%;
+}
+.userDataContainer{
+    height: 95%;
+    position: relative !important;
+
+}

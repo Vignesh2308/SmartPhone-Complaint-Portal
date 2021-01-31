@@ -1,0 +1,11 @@
+.ibdTable{
+    width: 100%;
+}
+.ibdTableContainer{
+    width: 98%;
+    margin-left: 1%;
+}
+.submitButton{
+    margin-bottom: 2%;
+    width: 120px;
+}
